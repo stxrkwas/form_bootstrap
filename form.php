@@ -57,15 +57,15 @@
                     <form method= "POST" action= "saida.class.php">
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Nome:</label>
-                            <input type="text" class="form-control" id="nome" aria-describedby="emailHelp">
+                            <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Telefone:</label>
-                            <input type="tel" class="form-control" id="telefone" placeholder="(xx) xxxxx-xxxx" aria-describedby="emailHelp">
+                            <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Origem:</label>
-                            <select class="form-select" id="origem" aria-label="Default select example">
+                            <select class="form-select" id="origem" name="origem" aria-label="Default select example">
                                 <option selected>Celular</option>
                                 <option value="1">Whatsapp</option>
                                 <option value="2">Telefone Fixo</option>
@@ -73,11 +73,11 @@
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Data do Contato:</label>
-                            <input type="date" class="form-control" id="datacont" placeholder="dd/mm/aaaa" aria-describedby="emailHelp">
+                            <input type="date" class="form-control" id="datacont" name="datacont" placeholder="dd/mm/aaaa" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Observação:</label>
-                            <textarea class="form-control" placeholder="" id="obs" style="height: 100px"></textarea>
+                            <textarea class="form-control" placeholder="" id="obs" name="obs" style="height: 100px"></textarea>
                         </div>
                         <div class="mb-3 text-start">
                             <input type="submit">
